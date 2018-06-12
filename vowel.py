@@ -1,6 +1,9 @@
 vowel=["a","e","i","o","u"]
-letter="e"
-if(letter in vowel):
-	print "vowel"
+letter=input()
+if(letter.isalpha()):
+	if(letter in vowel):
+		print ("Vowel")
+	else:
+		print ("Consonant")
 else:
-	print "consonant"
+	print("invalid")
