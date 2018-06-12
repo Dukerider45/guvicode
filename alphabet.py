@@ -1,5 +1,5 @@
 a=raw_input()
 if((a>="a" and a<="z") or(a>="A" and a<="Z")):
-	print ("alphabet")
+	print ("yes")
 else:
-	print ("not an alphabet")
+	print ("No")
