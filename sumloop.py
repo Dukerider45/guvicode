@@ -1,5 +1,8 @@
-a=int(raw_input("enter N "))
+a,b=raw_input().split(" ")
+c=raw_input()
+b=int(b)
+d=c.split(" ")
 sum=0
-for i in range(0,a+1):
-	sum=sum+i
-print sum
+for i in range(0,b):
+	sum=sum+int(d[i])
+print (sum)
