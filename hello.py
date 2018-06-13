@@ -1,2 +1,4 @@
-for a in range(0,5):
-	print("Hello")
+a=int(raw_input())
+for x in range(0,a):
+	 print("Hello")
+
