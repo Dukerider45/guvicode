@@ -2,6 +2,6 @@ a=raw_input()
 string=a[:]
 b=str(string)[::-1]
 if(a==b):
-	print("palindrome")
+	print("yes")
 else:
-	print("not an palindrome")
+	print("no")
