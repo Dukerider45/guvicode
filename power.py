@@ -1,4 +1,5 @@
-a=int(raw_input())
-b=int(raw_input())
+a,b=raw_input().split(" ")
+a=int(a)
+b=int(b)
 c=a**b
 print(c)
